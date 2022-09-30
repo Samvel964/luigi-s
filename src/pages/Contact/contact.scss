@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+
+.heading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+    &-img {
+        height: auto;
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+    .best-sellers {
+        font-size: 52px;
+    }
+    @media only screen and (max-width: 992px) {
+        margin-bottom: 60px;
+    }
+    @media only screen and (max-width:767px) {
+        margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 576px) {
+        margin-bottom: 40px;
+    }
+}
+
+.main-slider {
+    .contact {
+        font-size: 45px;
+    }
+}
+.bg-6 {  
+    background: url('../../images/slider_4_1920_600.jpg') no-repeat center;  
+    background-size: cover; 
+}
+
+.story-area {
+    .say-hello {
+        font-size: 52px;
+    }
+}

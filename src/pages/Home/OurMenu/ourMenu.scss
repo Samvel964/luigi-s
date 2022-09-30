@@ -1,0 +1,103 @@
+.heading {
+    position: relative;
+    text-align: center;
+    margin-bottom: 70px;
+    &-img {
+        height: auto;
+        width: 40px;
+        margin-bottom: 20px;
+    }
+
+    .our-menu {
+        font-size: 52px;
+    }
+    @media only screen and (max-width: 992px) {
+        margin-bottom: 60px;
+    }
+    @media only screen and (max-width:767px) {
+        margin-bottom: 50px;
+    }
+    @media only screen and (max-width: 576px) {
+        margin-bottom: 40px;
+    }
+}
+
+
+ul.selecton{ 
+    text-align: center;  
+    font-size: 1.2em;
+    li {
+        span {
+            padding: 15px 30px;
+            cursor: pointer;
+        }
+        span.active {
+            border-radius: 3px 3px 0 0; background: #EF0031; color: #FFFFFF!important;
+        }
+        &:hover span{
+            border-radius: 3px 3px 0 0; background: #EF0031; color: #FFFFFF!important;
+        }
+    }
+}
+
+.food-menu{ 
+    opacity: 0; 
+    display: block!important; 
+    animation: full-opacity-anim .3s forwards;
+
+    @keyframes full-opacity-anim{
+        100%{ opacity: 1; }
+    }
+
+    .s-right {
+        h5 {
+            margin: 0!important;
+            .name {
+                display: inline-block;
+                @media screen and (max-width: 1024px) {
+                    width: 270px;
+                }
+
+                @media screen and (max-width: 991px) {
+                    width: 155px;
+                    font-size: 18px;
+                }
+
+                @media screen and (max-width: 320px) {
+                    width: 140px;
+                    font-size: 16px;
+                }
+            }
+            
+        }
+        .our-description {
+
+            @media screen and (max-width: 991px) {
+               display: none;
+            }
+
+        }
+
+    }
+
+    .add {
+        padding: 2px 0;
+        border: 2px solid #EF0031;
+        border-radius: 2px;
+        font-size: 14px;
+        font-weight: 600;
+        width: 65px;
+        text-align: center;
+        transition: .2s;
+        cursor: pointer;
+        
+        &:hover {
+            background-color:#EF0031;
+            color: white;
+        }
+
+        @media screen and (max-width: 768px) {
+            margin: 0;
+        }
+    }
+}

@@ -1,0 +1,30 @@
+
+.main-slider{ 
+    position: relative; 
+    z-index: 1;
+
+    &:after{content: ''; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        z-index: -1; 
+        background: rgba(0,0,0,.4); 
+    }
+
+   
+}
+
+.bg-4 {  
+    background: url('../../images/slider_2_1920_600.jpg') no-repeat center;  
+    background-size: cover; 
+}
+
+.pizzaria {
+    font-size: 52px;
+}
+
+.sans-serif {
+    font-family: sans-serif;
+}

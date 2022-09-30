@@ -1,0 +1,41 @@
+.main-slider{ 
+    position: relative; 
+    z-index: 1;
+    &:after{
+        content: ''; 
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        right: 0; 
+        bottom: 0; 
+        z-index: -1; 
+        background: rgba(0,0,0,.4); 
+    }
+    
+    h5 {
+        @media (max-width: 375px) {
+            font-size: 15px!important;
+        }
+    }
+
+    h1 {
+        @media (max-width: 768px) {
+            font-size: 55px!important;
+        }
+        @media (max-width: 375px) {
+            font-size: 35px!important;
+        }
+    }
+
+    .pizza-pasta {
+        font-size: 90px;
+    }
+    @media (max-width: 768px) {
+        height: 500px!important;
+    }
+}
+
+.bg-1 { 
+    background: url('../../../images/slider_1_1920_1200.jpg') no-repeat center; 
+    background-size: cover; 
+}

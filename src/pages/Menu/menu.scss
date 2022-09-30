@@ -1,0 +1,26 @@
+.menu-items {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EF0031;
+
+    span {
+        border-radius: 3px;
+        padding: 12px 20px;
+        margin: 1px;
+        cursor: pointer;
+        transition: .2s;
+        font-weight: 500;
+
+        &:hover {
+            background-color: #EF0031;;
+            color: white;
+        }
+        &:active {
+            background-color: red;
+        }
+    }
+    
+}

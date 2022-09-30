@@ -1,0 +1,40 @@
+footer{ 
+    background: url("../../images/footer_1600x800.jpg") no-repeat; 
+    background-size: cover;  position: relative;  
+    text-align: center;z-index: 1;  font-size: 1.3em; 
+}
+
+.footer-bg-1{ 
+    background-image:  url("../../images/footer-1.png");
+}
+.footer-bg-1:after{ 
+    display: none; 
+}
+
+footer,
+footer p{ 
+    color: #FFFFFF; 
+}
+
+footer:after{ 
+    content: ''; 
+    position: absolute; 
+    top:0 ;
+    left: 0;
+    right: 0; 
+    bottom: 0; 
+    z-index: -1;  
+    background: rgba(0,0,0,.7);
+}
+
+.triangle-bottom:after {
+    content: '';
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0;
+    background: url('../../images/triangle_bg.png') repeat-x;
+    background-size: 26px 10px;
+    transform: rotate(180deg); -webkit-transform: rotate(180deg);
+}

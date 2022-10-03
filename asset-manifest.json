@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/luigis/static/css/main.4a4c88ab.css",
+    "main.js": "/luigis/static/js/main.48d73daf.js",
+    "static/media/footer-1.png": "/luigis/static/media/footer-1.980f303896c999bf7448.png",
+    "static/media/slider_1_1920_1200.jpg": "/luigis/static/media/slider_1_1920_1200.0d5ed55ec14e9ce2222b.jpg",
+    "static/media/story_bg_1.png": "/luigis/static/media/story_bg_1.479acf8df2f277027599.png",
+    "static/media/story_bg_2.png": "/luigis/static/media/story_bg_2.d7015c638e0d439cec09.png",
+    "static/media/sellers-1-1600x1600.jpg": "/luigis/static/media/sellers-1-1600x1600.aa05a6863ea1dc0afc7f.jpg",
+    "static/media/slider_6_1920_600.jpg": "/luigis/static/media/slider_6_1920_600.b1450f786dbbb4a8090d.jpg",
+    "static/media/footer_1600x800.jpg": "/luigis/static/media/footer_1600x800.844c01061fc65c218ecb.jpg",
+    "static/media/slider_3_1920_600.jpg": "/luigis/static/media/slider_3_1920_600.110d0c3a49044c762f78.jpg",
+    "static/media/slider_2_1920_600.jpg": "/luigis/static/media/slider_2_1920_600.f9b60e81c129d89adb3c.jpg",
+    "static/media/slider_4_1920_600.jpg": "/luigis/static/media/slider_4_1920_600.ad44468c6061261b2f09.jpg",
+    "static/media/goUp.png": "/luigis/static/media/goUp.94318a689d7390630b86.png",
+    "static/media/about-2-600x400.jpg": "/luigis/static/media/about-2-600x400.5e925e6a1f3408e53216.jpg",
+    "static/media/about-1-600x400.jpg": "/luigis/static/media/about-1-600x400.1d969058d3e1be65581d.jpg",
+    "static/media/pageNotFound.png": "/luigis/static/media/pageNotFound.c0bc7d0b97fa8387bee7.png",
+    "static/media/registrationRequired.webp": "/luigis/static/media/registrationRequired.9acbbe36f2e348ea4456.webp",
+    "static/media/emptyCart.png": "/luigis/static/media/emptyCart.3fb2f85a27ef1e5245ad.png",
+    "static/media/icin-1-200x200.png": "/luigis/static/media/icin-1-200x200.6421e8e3b5427bcb0a25.png",
+    "static/media/icin-2-200x200.png": "/luigis/static/media/icin-2-200x200.5167145caf99cc9a1aa3.png",
+    "static/media/icin-4-200x200.png": "/luigis/static/media/icin-4-200x200.a2277872e0516fda4afb.png",
+    "static/media/icin-3-200x200.png": "/luigis/static/media/icin-3-200x200.7184099854ad4fa0b1ff.png",
+    "index.html": "/luigis/index.html",
+    "main.4a4c88ab.css.map": "/luigis/static/css/main.4a4c88ab.css.map",
+    "main.48d73daf.js.map": "/luigis/static/js/main.48d73daf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4a4c88ab.css",
+    "static/js/main.48d73daf.js"
+  ]
+}

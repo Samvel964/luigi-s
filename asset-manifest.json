@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/luigis/static/css/main.4a4c88ab.css",
-    "main.js": "/luigis/static/js/main.0056e178.js",
+    "main.css": "/luigis/static/css/main.8fba7b02.css",
+    "main.js": "/luigis/static/js/main.8aa7031f.js",
     "static/media/footer-1.png": "/luigis/static/media/footer-1.980f303896c999bf7448.png",
     "static/media/slider_1_1920_1200.jpg": "/luigis/static/media/slider_1_1920_1200.0d5ed55ec14e9ce2222b.jpg",
     "static/media/story_bg_1.png": "/luigis/static/media/story_bg_1.479acf8df2f277027599.png",
@@ -23,11 +23,11 @@
     "static/media/icin-4-200x200.png": "/luigis/static/media/icin-4-200x200.a2277872e0516fda4afb.png",
     "static/media/icin-3-200x200.png": "/luigis/static/media/icin-3-200x200.7184099854ad4fa0b1ff.png",
     "index.html": "/luigis/index.html",
-    "main.4a4c88ab.css.map": "/luigis/static/css/main.4a4c88ab.css.map",
-    "main.0056e178.js.map": "/luigis/static/js/main.0056e178.js.map"
+    "main.8fba7b02.css.map": "/luigis/static/css/main.8fba7b02.css.map",
+    "main.8aa7031f.js.map": "/luigis/static/js/main.8aa7031f.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a4c88ab.css",
-    "static/js/main.0056e178.js"
+    "static/css/main.8fba7b02.css",
+    "static/js/main.8aa7031f.js"
   ]
 }

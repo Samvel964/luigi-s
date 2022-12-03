@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/luigis/static/css/main.0b2a2a94.css",
-    "main.js": "/luigis/static/js/main.ae23d6a8.js",
+    "main.js": "/luigis/static/js/main.cc97e59d.js",
     "static/media/footer-1.png": "/luigis/static/media/footer-1.980f303896c999bf7448.png",
     "static/media/slider_1_1920_1200.jpg": "/luigis/static/media/slider_1_1920_1200.0d5ed55ec14e9ce2222b.jpg",
     "static/media/story_bg_1.png": "/luigis/static/media/story_bg_1.479acf8df2f277027599.png",
@@ -24,10 +24,10 @@
     "static/media/icin-3-200x200.png": "/luigis/static/media/icin-3-200x200.7184099854ad4fa0b1ff.png",
     "index.html": "/luigis/index.html",
     "main.0b2a2a94.css.map": "/luigis/static/css/main.0b2a2a94.css.map",
-    "main.ae23d6a8.js.map": "/luigis/static/js/main.ae23d6a8.js.map"
+    "main.cc97e59d.js.map": "/luigis/static/js/main.cc97e59d.js.map"
   },
   "entrypoints": [
     "static/css/main.0b2a2a94.css",
-    "static/js/main.ae23d6a8.js"
+    "static/js/main.cc97e59d.js"
   ]
 }

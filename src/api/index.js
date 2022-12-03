@@ -3,7 +3,7 @@ import { store } from '../app/store';
 import { setError } from "../features/errorSlice";
 
 const instance = axios.create({
-    baseURL: 'https://rae-pizza-server.herokuapp.com/'
+    baseURL: 'https://rae-pizza.onrender.com/'
 });
 
 instance.interceptors.response.use(
@@ -11,7 +11,7 @@ instance.interceptors.response.use(
         return response 
     },
     function(error) {
-        if (error.response.status == 400) {
+        if (error.response.status === 400) {
             store.dispatch(setError(error.response.data));
         }
         

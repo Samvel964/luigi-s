@@ -137,7 +137,7 @@ header {
                         padding: 17px 20px;
                     }
                 }
-            }
+            }            
 
             a.mouseover + ul.drop-down-menu {
                 display: block;
@@ -153,6 +153,14 @@ header {
                 }
             }
         } //li.drop-down
+        a.logout-icon {
+            display: none;
+            color: #EF0031!important;
+            font-weight: 900;
+            @media screen and (max-width: 575px) {
+                display: block;
+            }
+        }
 
         i {
             margin-left: 10px;
@@ -179,6 +187,13 @@ header {
         }
         .right-area {
             height: 60px;
+            
+            @media screen and (max-width: 575px) {
+                a.logout, a.order {
+                    display: none;
+                }
+                
+            }
         }
     }
 }

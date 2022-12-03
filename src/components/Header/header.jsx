@@ -8,6 +8,7 @@ import { setToken } from '../../features/userSlice';
 import { useDispatch, useSelector } from 'react-redux';
 import { setCartId } from '../../features/userSlice';
 import { useEffect } from 'react';
+import { setCart } from '../../features/userSlice';
 
 const Header = () => {
     const dispatch = useDispatch();
@@ -47,29 +48,31 @@ const Header = () => {
         localStorage.removeItem('token');
         dispatch(setToken(""));
         dispatch(setCartId([]));
+        dispatch(setCart());
+        setVisible(false);
     }
     
     return(
         <header>
             <div className="container">
-                <Link to="/" className="logo"><img src={logo} alt="Logo" /></Link>
+                <Link to="/luigis" className="logo"><img src={logo} alt="Logo" /></Link>
                 <div className="right-area">
                     {token ? 
                     <h6>
                         {order ? 
                         <Link 
                             to="/cart" 
-                            className="plr-20 color-white btn-fill-primary me-1">ORDER NOW
+                            className="plr-20 color-white btn-fill-primary me-1 order">ORDER NOW
                         </Link> : null}
                         <Link 
-                            to="" 
-                            className="plr-20 color-white btn-fill-primary log-out me-1"
+                            to="/luigis" 
+                            className="plr-20 color-white btn-fill-primary log-out me-1 logout"
                             onClick={logOut}>LOGOUT
                         </Link>
                     </h6> : 
                     <h6>
                         <Link 
-                          to="" 
+                          to="/luigis" 
                           className="plr-20 color-white btn-fill-primary me-1"
                           onClick={logCLick}>Log in
                         </Link>
@@ -91,11 +94,19 @@ const Header = () => {
                 </span>
 
                 <ul className={visible ? "main-menu font-mountainsre visible-menu" : "main-menu font-mountainsre"} id="main-menu">
-                    <li><Link to="/">HOME</Link></li>
+                    <li><Link to="/luigis">HOME</Link></li>
                     <li><Link to="/about">ABOUT US</Link></li>
                     <li><Link to="/menu">MENU</Link></li>
                     <li className='cart-li'><Link to="/cart">CART</Link><span className='count'>{userCart.length}</span></li>
                     <li><Link to="/contact">CONTACT</Link></li>
+                    {token &&                     
+                    <li>
+                        <Link 
+                            to="/luigis" 
+                            className="logout-icon"
+                            onClick={logOut}>LOGOUT
+                        </Link>
+                    </li>}
                 </ul>
                 <div className="clearfix"></div>
             </div>

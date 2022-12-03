@@ -26,6 +26,9 @@ export const userSlice = createSlice({
         setChangeState: state => {
             state.changeState += 1
         },
+        setCart: state => {
+            state.cart = []
+        },
         setCartCountUpdate: (state, action) => {
             state.cart.map(product => {
                 if (action.payload.id === product._id) {
@@ -37,13 +40,12 @@ export const userSlice = createSlice({
                         }
                         product.quantity -= 1
                     }
-                }                
-            
+                }            
             })
         }
     },
 })
   
-export const { setData, setToken, setCartId, setChangeState, setCartCountUpdate } = userSlice.actions
+export const { setData, setToken, setCartId, setChangeState, setCart, setCartCountUpdate } = userSlice.actions
 
 export default userSlice.reducer

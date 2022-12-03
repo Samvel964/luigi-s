@@ -27,9 +27,11 @@
             position: absolute;
             top: 0;right:0;bottom:0;left:0;
             background-repeat: no-repeat;
-            background-position: left bottom;
-            background-size: 500px;
-            background-image: url('https://images.unsplash.com/photo-1503602642458-232111445657?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=bf884ad570b50659c5fa2dc2cfb20ecf&auto=format&fit=crop&w=1000&q=100');
+            // background-position: left bottom;
+            background-position: top;
+            // background-size: 500px;
+            background-size: cover;
+            background-image: url('../../images/slider_1_1920_1200.jpg');
         }
         
         .signup {

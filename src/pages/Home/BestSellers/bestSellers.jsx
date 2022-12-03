@@ -8,7 +8,7 @@ import { setChangeState } from '../../../features/userSlice';
 
 const BestSellers = ({products}) => {
     const dispatch = useDispatch();
-    const link = 'https://rae-pizza-server.herokuapp.com/';
+    const link = 'https://rae-pizza.onrender.com/'
     const cartId = useSelector(state => state.user.cartId);
     const token = localStorage.getItem("token");
 
@@ -48,10 +48,11 @@ const BestSellers = ({products}) => {
                 </div>
                 <div className="row">
                     {products && products?.map(product => {
+                        console.log(product,'Pizza product');
                         return(
                             <div className="col-lg-3 col-md-4  col-sm-6 " key={product?._id + 'item'}>
                                 <div className="center-text mb-30">
-                                    <div className="ïmg-200x mlr-auto pos-relative img-div">
+                                    <div className="img-200x mlr-auto pos-relative img-div">
                                         <img src={link + product?.productImage} alt="seller" />
                                         <div className='description'><span>{product.productNameEngDescription}</span></div>
                                     </div>

@@ -30,11 +30,8 @@ function App() {
   useEffect(() => {
     getUser().then(res => {
       dispatch(setData(res.data));
-    })   
-
-    if (!Token) {
-      localStorage.removeItem('token');
-    }
+    }).catch(() => localStorage.removeItem('token'))
+    
     // eslint-disable-next-line
   },[pathname, state])
 

@@ -13,7 +13,7 @@ const CartSection = () => {
     const [totalProducts, setTotalProducts] = useState(0);
     const [taxes, setTaxes] = useState(0);
     const [total, setTotal] = useState(0);
-    const link = 'https://rae-pizza-server.herokuapp.com/';
+    const link = 'https://rae-pizza.onrender.com/';
     const token = localStorage.getItem('token');
 
     useEffect(() => {

@@ -7,7 +7,7 @@ import { setChangeState } from '../../../features/userSlice';
 
 
 const ChooseFood = ({title, products, productTag, productTag2, id}) => {
-    const link = 'https://rae-pizza-server.herokuapp.com/';
+    const link = 'https://rae-pizza.onrender.com/'
     const dispatch = useDispatch();
     const [printProduct, setPrintProduct] = useState([]);
     const [maxProducts, setMaxProducts] = useState(8);

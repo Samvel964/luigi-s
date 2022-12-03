@@ -11,7 +11,7 @@ import { setChangeState } from '../../../features/userSlice';
 const OurMenu = ({products}) => {
     const dispatch = useDispatch();
     const [filteredProducts, setFilteredProducts] = useState([]);
-    const link = 'https://rae-pizza-server.herokuapp.com/';
+    const link = 'https://rae-pizza.onrender.com/';
     const cartId = useSelector(state => state.user.cartId);
     const token = localStorage.getItem("token");
 
